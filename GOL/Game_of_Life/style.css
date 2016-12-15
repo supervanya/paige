@@ -37,8 +37,12 @@ h1 {
 }
 
 #canvas-table td {
-    border: none;
+    /*border: none;
+    border-width: thin;*/
+
+    border: 1px inset #f2f2f2;
     border-width: thin;
+
 }
 
 #button-container {
