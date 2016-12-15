@@ -133,11 +133,11 @@ $(document).ready(function() {
     });
 
     $("#slow-down").click(function () {
-        Constants.generationInterval = Constants.generationInterval / 2;
+        Constants.generationInterval *= 2;
     });
 
     $("#speed-up").click(function () {
-        Constants.generationInterval = Constants.generationInterval * 2;
+        Constants.generationInterval = Constants.generationInterval / 2;
     });
 
     drawOscillator("Blinker", gameGrid, 5, 5);

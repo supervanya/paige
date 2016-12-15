@@ -37,7 +37,7 @@ h1 {
 }
 
 #canvas-table td {
-    border: 1px inset #f9f8f8;
+    border: none;
     border-width: thin;
 }
 
